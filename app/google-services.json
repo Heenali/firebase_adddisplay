@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "519499778506",
+    "firebase_url": "https://august-selfie-frame.firebaseio.com",
+    "project_id": "august-selfie-frame",
+    "storage_bucket": "august-selfie-frame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519499778506:android:c2006ee6ba41ae06",
+        "android_client_info": {
+          "package_name": "com.HJL.AugustSelfieFrame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519499778506-e2lvtuakba66uukboj9r979kuq62fh5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HJL.AugustSelfieFrame",
+            "certificate_hash": "316ed2ae52e9794961c4a3592cb4207886163c4a"
+          }
+        },
+        {
+          "client_id": "519499778506-l0ulopcjl7s7pksum9matikepn1ljro6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_m9R5GatGK3eT0AEvsYurYduvmM0SsoY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519499778506-l0ulopcjl7s7pksum9matikepn1ljro6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

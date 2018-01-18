@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="7dp">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Enter Name"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number"
+        android:hint="Enter Phone Number"
+        android:gravity="center"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_below="@id/phone_number"
+        android:text="Submit Data To Firebase Database"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show"
+        android:layout_below="@id/submit"
+        android:text="Show inserted Firebase data into TextView From Server"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/showData"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_below="@+id/show"
+        android:layout_margin="20dp"/>
+
+
+</RelativeLayout>
